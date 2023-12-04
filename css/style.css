@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: large;
+    background-color: #023047;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #219ebc;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+p {
+    color: white;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #023047;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+header .logoHeader img {
+    width: 120px;
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    display: flex;
+    font-weight: 700;
+}
+
+header nav ul li {
+    margin: 20px;
+    margin-bottom: 0
+}
+
+header nav ul :hover {
+    background-color: #ffb703;
+    size: 20px;
+    box-shadow: 2px 2px 2px white;
+}
+
+header nav ul li a {
+    color: white;
+}
+
+/* footer */
+
+#piePagina {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer ul li {
+    display: inline;
+    margin: 10px;
+}
+
+footer h3 {
+    padding-bottom: 10px;
+}
+
+.redes {
+    color: white;
+    padding-top: 20px;
+}
+
+.redes h3 {
+    padding-left: 8px;
+}
+
+.redes img {
+    width: 30px;
+}
+
+.infoContacto {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.tratamientoDatos {
+    color: white;
+    padding-top: 20px;
+}
+
+.wpp {
+    width: 50px;
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+}
+
+/* main index */
+
+.portadaPrincipal img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding-top: 100px;
+}
+
+.caja1 {
+    font-weight: 500;
+    margin: 40px;
+    text-align: center;
+}
+
+.caja2 {
+    margin: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+    font-size: x-large;
+}
+
+.boxservicios {
+    font-weight: 500;
+    text-align: center;
+    margin: 40px;
+}
+
+div.principalServicios {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cardServicios1 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 6px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.cardServicios1 h2 {
+    color: #fb8500;
+    font-size: x-large;
+    font-weight: 400px;
+    text-align: center;
+}
+
+.cardServicios2 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 6px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.cardServicios2 h2 {
+    color: #fb8500;
+    font-size: x-large;
+    font-weight: 400px;
+    text-align: center;
+}
+
+.cardServicios3 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 6px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.cardServicios3 h2 {
+    color: #fb8500;
+    font-size: x-large;
+    font-weight: 400px;
+    text-align: center;
+}
+
+.videosTutoriales {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.video iframe {
+    width: 500px;
+    height: 300px;
+    margin: 50px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+
+.video h2 {
+    color: #219ebc;
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 0;
+    font-weight: 400px;
+    font-style: italic;
+}
+
+/* main page quienes somos */
+
+.portadaQuienesSomos {
+    height: 90vh;
+    text-align: center;
+    padding-top: 8%;
+    margin: 50px;
+}
+
+.portadaQuienesSomos h1 {
+    margin-bottom: 50px;
+}
+
+.portadaQuienesSomos p {
+    font-size: larger;
+}
+
+.misionVisionPoliticas {
+    display: flex;
+    flex-direction: column;
+}
+
+.misionVisionPoliticas h2 {
+    text-align: center;
+    font-size: xx-large;
+    color: #219ebc;
+}
+
+.misionVisionPoliticas p {
+    text-align: center;
+    margin: 50px;
+    font-size: larger;
+}
+
+/* main page telas */
+
+.tituloTelas {
+    margin-top: 130px;
+    text-align: center;
+}
+
+#secImg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    min-height: 100vh;
+}
+
+#secImg img {
+    height: 250px;
+    width: 250px;
+    margin: 30px;
+    border: solid 3px lightblue;
+    border-radius: 20px;
+}
+
+.cardTelas {
+    margin: 30px;
+    height: 300px;
+    width: 300px;
+}
+
+.cardTelas h2 {
+    color: #ffb703;
+    font-weight: 600;
+    font-size: larger;
+    font-style: italic;
+    text-align: center;
+}
+
+/* main page dotacion */
+
+.dotacion {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.uniformesEmpresariales {
+    margin: 50px;
+    color: #fb8500;
+    font-weight: 800px;
+    font-size: larger;
+}
+
+.jeanLaboral {
+    margin: 50px;
+}
+
+.jeanLaboral h3 {
+    margin-bottom: 30px;
+    color: #ffb703;
+}
+
+.oxford {
+    margin: 50px;
+}
+
+.oxford h3 {
+    margin-bottom: 30px;
+    color: #ffb703;
+}
+
+.camisaDril {
+    margin: 50px;
+}
+
+.camisaDril h3 {
+    margin-bottom: 30px;
+    color: #ffb703;
+}
+
+.camisaPolo {
+    margin: 50px;
+}
+
+.camisaPolo h3 {
+    margin-bottom: 30px;
+    color: #ffb703;
+}
+
+/* main page seguridad */
+
+.productosSeguridad {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.imagenesSeguridad img {
+    height: 400px;
+    width: 400px;
+    border: solid 3px lightgrey;
+}
+
+.botas {
+    margin: 30px;
+    color: #ffb703;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.botas h2 {
+    margin-bottom: 30px;
+    color: #ffb703;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.gafas {
+    margin: 30px;
+    color: #ffb703;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.gafas h2 {
+    margin-bottom: 30px;
+    color: #ffb703;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.guantes {
+    margin: 30px;
+    color: #ffb703;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.guantes h2 {
+    margin-bottom: 30px;
+    color: #ffb703;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.casco {
+    margin: 30px;
+    color: #ffb703;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.casco h2 {
+    margin-bottom: 30px;
+    color: #ffb703;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* main page contactanos */
+
+.tituloContactanos {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.datos {
+    margin: 20px;
+}
+
+.productoInteres {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+form fieldset div label {
+    color: white;
+}
+
+form fieldset legend {
+    color: white;
+}
+
+/* 
+#.mision {
+    margin: 40px;
+    text-align: center;
+    
+}
+
+.vision {
+    margin: 40px;
+    text-align: center;
+}
+
+.politicasCalidad {
+    margin: 40px;
+    text-align: center;
+}
