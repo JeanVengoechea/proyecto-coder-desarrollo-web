@@ -147,6 +147,7 @@ div.principalServicios {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .cardServicios1 img {
@@ -266,6 +267,9 @@ div.principalServicios {
 
 #secImg {
     display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     min-height: 100vh;
@@ -295,24 +299,41 @@ div.principalServicios {
 
 /* main page dotacion */
 
-.dotacion {
+.tituloDotacion {
     margin-top: 130px;
     text-align: center;
 }
 
-.uniformesEmpresariales {
-    margin: 50px;
+.tituloDotacion h2 {
+    margin-top: 30px;
+    margin-left: 50px;
     color: #fb8500;
     font-weight: 800px;
-    font-size: larger;
+    font-size: xx-large;
+    text-align: left;
 }
+
+.cardDotacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cardDotacion img {
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+    border: solid 3px lightblue;
+    border-radius: 20px;
+}
+
 
 .jeanLaboral {
     margin: 50px;
 }
 
 .jeanLaboral h3 {
-    margin-bottom: 30px;
+    text-align: center;
     color: #ffb703;
 }
 
@@ -321,7 +342,7 @@ div.principalServicios {
 }
 
 .oxford h3 {
-    margin-bottom: 30px;
+    text-align: justify;
     color: #ffb703;
 }
 
@@ -330,7 +351,7 @@ div.principalServicios {
 }
 
 .camisaDril h3 {
-    margin-bottom: 30px;
+    text-align: justify;
     color: #ffb703;
 }
 
@@ -339,7 +360,7 @@ div.principalServicios {
 }
 
 .camisaPolo h3 {
-    margin-bottom: 30px;
+    text-align: justify;
     color: #ffb703;
 }
 
