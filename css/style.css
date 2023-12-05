@@ -263,6 +263,7 @@ div.principalServicios {
 .tituloTelas {
     margin-top: 130px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 #secImg {
@@ -287,6 +288,7 @@ div.principalServicios {
     margin: 30px;
     height: 300px;
     width: 300px;
+    margin-bottom: 50px;
 }
 
 .cardTelas h2 {
@@ -306,7 +308,7 @@ div.principalServicios {
 
 .tituloDotacion h2 {
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 100px;
     color: #fb8500;
     font-weight: 800px;
     font-size: xx-large;
@@ -317,11 +319,12 @@ div.principalServicios {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
 }
 
 .cardDotacion img {
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     margin: 30px;
     border: solid 3px lightblue;
     border-radius: 20px;
@@ -330,37 +333,38 @@ div.principalServicios {
 
 .jeanLaboral {
     margin: 50px;
+    text-align: center;
+
 }
 
 .jeanLaboral h3 {
-    text-align: center;
     color: #ffb703;
 }
 
 .oxford {
     margin: 50px;
+    text-align: center;
 }
 
 .oxford h3 {
-    text-align: justify;
     color: #ffb703;
 }
 
 .camisaDril {
     margin: 50px;
+    text-align: center;
 }
 
 .camisaDril h3 {
-    text-align: justify;
     color: #ffb703;
 }
 
 .camisaPolo {
     margin: 50px;
+    text-align: center;
 }
 
 .camisaPolo h3 {
-    text-align: justify;
     color: #ffb703;
 }
 
