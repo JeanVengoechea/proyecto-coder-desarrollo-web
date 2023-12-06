@@ -438,22 +438,18 @@ div.principalServicios {
 }
 
 /* main page contactanos */
+
 .formulario {
-    height: 100vh;
+    height: 80vh
 }
+
 .tituloContactanos {
     margin-top: 130px;
     text-align: center;
 }
 
 .datos {
-    margin: 20px;
-}
-
-.productoInteres {
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
+    margin: 30px;
 }
 
 form fieldset div label {
@@ -462,6 +458,10 @@ form fieldset div label {
 
 form fieldset legend {
     color: white;
+}
+.mensaje {
+    display: flex;
+    margin-bottom: 20px;
 }
 
 /* 
