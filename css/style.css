@@ -214,7 +214,6 @@ div.principalServicios {
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
-
 .video h2 {
     color: #219ebc;
     text-align: center;
@@ -285,10 +284,12 @@ div.principalServicios {
 }
 
 .cardTelas {
-    margin: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
     height: 300px;
     width: 300px;
-    margin-bottom: 50px;
+
 }
 
 .cardTelas h2 {
@@ -304,6 +305,10 @@ div.principalServicios {
 .tituloDotacion {
     margin-top: 130px;
     text-align: center;
+}
+
+.tituloDotacion h1 {
+    margin-bottom: 30px;
 }
 
 .tituloDotacion h2 {
@@ -330,49 +335,24 @@ div.principalServicios {
     border-radius: 20px;
 }
 
-
-.jeanLaboral {
-    margin: 50px;
-    text-align: center;
-
-}
-
-.jeanLaboral h3 {
-    color: #ffb703;
-}
-
-.oxford {
+.productosDotacion {
     margin: 50px;
     text-align: center;
 }
 
-.oxford h3 {
-    color: #ffb703;
-}
-
-.camisaDril {
-    margin: 50px;
-    text-align: center;
-}
-
-.camisaDril h3 {
-    color: #ffb703;
-}
-
-.camisaPolo {
-    margin: 50px;
-    text-align: center;
-}
-
-.camisaPolo h3 {
+.productosDotacion h3 {
     color: #ffb703;
 }
 
 /* main page seguridad */
 
-.productosSeguridad {
+.tituloSeguridad {
     margin-top: 130px;
     text-align: center;
+}
+
+.tituloSeguridad h1 {
+    margin-bottom: 30px;
 }
 
 .imagenesSeguridad img {
@@ -381,61 +361,28 @@ div.principalServicios {
     border: solid 3px lightgrey;
 }
 
-.botas {
+.imagenesSeguridad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cardProductosSec {
     margin: 30px;
+    padding-bottom: 30px;
     color: #ffb703;
     font-weight: 600;
     font-style: italic;
+    text-align: center;
 }
 
-.botas h2 {
+.cardProductosSec h2 {
     margin-bottom: 30px;
     color: #ffb703;
     font-weight: 600;
     font-style: italic;
 }
 
-.gafas {
-    margin: 30px;
-    color: #ffb703;
-    font-weight: 600;
-    font-style: italic;
-}
-
-.gafas h2 {
-    margin-bottom: 30px;
-    color: #ffb703;
-    font-weight: 600;
-    font-style: italic;
-}
-
-.guantes {
-    margin: 30px;
-    color: #ffb703;
-    font-weight: 600;
-    font-style: italic;
-}
-
-.guantes h2 {
-    margin-bottom: 30px;
-    color: #ffb703;
-    font-weight: 600;
-    font-style: italic;
-}
-
-.casco {
-    margin: 30px;
-    color: #ffb703;
-    font-weight: 600;
-    font-style: italic;
-}
-
-.casco h2 {
-    margin-bottom: 30px;
-    color: #ffb703;
-    font-weight: 600;
-    font-style: italic;
-}
 
 /* main page contactanos */
 
@@ -459,24 +406,8 @@ form fieldset div label {
 form fieldset legend {
     color: white;
 }
+
 .mensaje {
     display: flex;
     margin-bottom: 20px;
-}
-
-/* 
-#.mision {
-    margin: 40px;
-    text-align: center;
-    
-}
-
-.vision {
-    margin: 40px;
-    text-align: center;
-}
-
-.politicasCalidad {
-    margin: 40px;
-    text-align: center;
 }
