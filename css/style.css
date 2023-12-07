@@ -150,7 +150,25 @@ div.principalServicios {
     flex-wrap: wrap;
 }
 
-.cardServicios1 img {
+.cardServiciosNova {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cardServiciosNova a {
+    color: #fb8500;
+    font-size: x-large;
+    font-weight: 600px;
+    font-style: oblique;
+    text-align: center;
+}
+
+.cardServiciosNova :hover {
+    color: brown;
+}
+
+.cardServiciosNova img {
     width: 300px;
     height: 300px;
     border-radius: 6px;
@@ -158,48 +176,6 @@ div.principalServicios {
     margin-left: 20px;
     margin-bottom: 10px;
     box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
-}
-
-.cardServicios1 h2 {
-    color: #fb8500;
-    font-size: x-large;
-    font-weight: 400px;
-    text-align: center;
-}
-
-.cardServicios2 img {
-    width: 300px;
-    height: 300px;
-    border-radius: 6px;
-    margin-top: 30px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
-}
-
-.cardServicios2 h2 {
-    color: #fb8500;
-    font-size: x-large;
-    font-weight: 400px;
-    text-align: center;
-}
-
-.cardServicios3 img {
-    width: 300px;
-    height: 300px;
-    border-radius: 6px;
-    margin-top: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
-}
-
-.cardServicios3 h2 {
-    color: #fb8500;
-    font-size: x-large;
-    font-weight: 400px;
-    text-align: center;
 }
 
 .videosTutoriales {
