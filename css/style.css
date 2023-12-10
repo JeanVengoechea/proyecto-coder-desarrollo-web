@@ -176,6 +176,7 @@ div.principalServicios {
     border-radius: 6px;
     margin-top: 30px;
     margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 10px;
     box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
 }
@@ -423,6 +424,7 @@ form fieldset legend {
         border-radius: 6px;
         margin-top: 30px;
         margin-left: 20px;
+        margin-right: 20px;
         margin-bottom: 30px;
         box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
     }
