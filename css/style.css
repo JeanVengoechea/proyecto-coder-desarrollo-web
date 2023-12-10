@@ -256,14 +256,23 @@ div.principalServicios {
 #secImg img {
     height: 250px;
     width: 250px;
-    border: solid 3px lightblue;
+    border: solid 3px darkgrey;
     border-radius: 20px;
+}
+
+
+#secImg img:hover {
+    box-shadow: 5px 5px 10px white;   
 }
 
 .cardTelas {
     text-align: center;
     padding: 30px;
+    border: solid black 5px;
+    background-color: #8ecae6;
+    padding-bottom: 20px;
 }
+
 
 
 .cardTelas h2 {
@@ -471,8 +480,13 @@ form fieldset legend {
     #secImg img {
         height: 250px;
         width: 80vw;
-        border: solid 3px lightblue;
+        border: solid 3px darkgrey;
         border-radius: 20px;
+    }
+
+    
+    #secImg img:hover {
+        box-shadow: 5px 5px 10px white;
     }
 
     .tratamientoDatos {
@@ -517,5 +531,6 @@ form fieldset legend {
     .tituloContactanos {
         margin-top: 200px;
     }
+
     
 }
